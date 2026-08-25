@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FujiBanks" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/page</item>
+    </style>
+
+    <!--
+      Worn only until onCreate swaps it out. The window background carries the
+      mark, so the gap between tapping the icon and the first Compose frame is
+      the app's own dark rather than a white flash.
+    -->
+    <style name="Theme.FujiBanks.Splash" parent="Theme.FujiBanks">
+        <item name="android:windowBackground">@drawable/splash_window</item>
+    </style>
+
+</resources>

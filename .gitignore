@@ -1,0 +1,36 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+
+# Kotlin incremental build state
+.kotlin/
+
+# Release signing — the key and its passwords never go in the repository.
+# The extensions are listed defensively: one of these committed once is
+# committed in the history forever, and the key is the app's identity.
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pepk
+
+# Build outputs. `*.apk` is already above; a bundle is the other shape of the
+# same thing, and it goes to a release page, never into the tree.
+*.aab
+
+# Android Studio profiler dumps — large, machine-specific, and a heap dump of a
+# running app can contain anything the app was holding.
+*.hprof
+
+# Machine-specific toolchain paths. The template is env.sh.example.
+env.sh
+
+.DS_Store
+Thumbs.db
+CLAUDE.md

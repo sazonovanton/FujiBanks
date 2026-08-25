@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  What the window holds before the first Compose frame arrives.
+
+  Without it the system paints its default white, which on an app this dark is
+  a flash in the face. The mark is centred at the size the platform splash uses
+  on newer releases, so the handover to the animated intro does not jump.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_logo_background" />
+    <item
+        android:drawable="@drawable/ic_logo_foreground"
+        android:gravity="center"
+        android:width="180dp"
+        android:height="180dp" />
+</layer-list>

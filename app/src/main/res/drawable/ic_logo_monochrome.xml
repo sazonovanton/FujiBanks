@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The app's mark: one film frame, perforated, with the recipe ramp in the gate.
+
+  The same object the slot rail and the artwork are made of — the icon shows the
+  thing the app does, not a symbol standing in for it. The geometry is repeated
+  in ui/Logo.kt, which animates it on the splash and cannot share code with a
+  vector resource. Change one, change the other.
+
+  Sized to the adaptive-icon safe zone rather than to the canvas: a circular
+  mask keeps only the middle 66 units, and a first cut at 64x44 had its ends
+  shaved off on a Pixel launcher. This one reaches 31.6 from the centre.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M32.0,35.0 h44.0 a6.0,6.0 0 0 1 6.0,6.0 v26.0 a6.0,6.0 0 0 1 -6.0,6.0 h-44.0 a6.0,6.0 0 0 1 -6.0,-6.0 v-26.0 a6.0,6.0 0 0 1 6.0,-6.0 z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M33.5,44.5 h41.0 a2.0,2.0 0 0 1 2.0,2.0 v15.0 a2.0,2.0 0 0 1 -2.0,2.0 h-41.0 a2.0,2.0 0 0 1 -2.0,-2.0 v-15.0 a2.0,2.0 0 0 1 2.0,-2.0 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M33.18,38.1 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M41.05,38.1 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M48.919999999999995,38.1 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M56.779999999999994,38.1 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M64.65,38.1 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M72.52,38.1 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M33.18,66.4 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M41.05,66.4 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M48.919999999999995,66.4 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M56.779999999999994,66.4 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M64.65,66.4 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M72.52,66.4 h2.3 a1.05,1.05 0 0 1 1.05,1.05 v1.4 a1.05,1.05 0 0 1 -1.05,1.05 h-2.3 a1.05,1.05 0 0 1 -1.05,-1.05 v-1.4 a1.05,1.05 0 0 1 1.05,-1.05 z"
+        android:fillColor="#000000" />
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FujiBanks" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/page</item>
+    </style>
+
+    <!--
+      Android 12 and up draw the splash themselves and ignore windowBackground,
+      so the mark is handed over as an icon on the page colour instead.
+    -->
+    <style name="Theme.FujiBanks.Splash" parent="Theme.FujiBanks">
+        <item name="android:windowSplashScreenBackground">@color/page</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_logo_foreground</item>
+    </style>
+
+</resources>

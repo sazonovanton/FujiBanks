@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Film.Background from ui/Theme.kt. Kept in step by hand: there are two
+         of them because the window exists before Compose does. -->
+    <color name="page">#0E0C0B</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 1227 = 0x04CB, Fuji Photo Film Co., Ltd. No product-id: every body has
+         its own (X-T30 is 0x02e3), and we support whatever answers PTP. -->
+    <usb-device vendor-id="1227" />
+</resources>
